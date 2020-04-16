@@ -1,0 +1,35 @@
+{
+  "name": "recruiting-service",
+  "version": "0.1.0",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "@types/koa-logger": "^3.1.1",
+    "class-validator": "^0.11.0",
+    "http-status-codes": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "node": "^13.5.0",
+    "pg": "^7.17.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.22"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.46",
+    "@types/koa-bodyparser": "^5.0.1",
+    "@types/koa-router": "^7.0.32",
+    "@types/node": "^10.12.18",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.15.3",
+    "ts-node": "8.1.0",
+    "tsconfig-paths": "3.8.0",
+    "typescript": "3.7.5",
+    "wait-on": "^3.2.0"
+  },
+  "scripts": {
+    "serve": "ts-node -r tsconfig-paths/register src/app.ts",
+    "start": "nodemon"
+  }
+}

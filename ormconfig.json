@@ -1,0 +1,15 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "recruiting",
+    "password": "",
+    "database": "recruiting",
+    "entities": ["src/entities/*.ts"],
+    "logging": true,
+    "synchronize": true,
+    "migrations": ["src/migrations/*.ts"],
+    "cli": {
+        "migrationsDir": "src/migrations"
+    }
+  }
